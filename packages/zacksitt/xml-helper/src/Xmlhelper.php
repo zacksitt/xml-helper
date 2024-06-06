@@ -1,6 +1,6 @@
 <?php 
 
-namespace Zacksitt\Xmlhelper;
+namespace Zacksitt\XmlHelper;
 
 use Exception;
 

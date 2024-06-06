@@ -5,8 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Simplexi\\XmlHelper\\": "packages/zacksitt/xml-helper/src",
-            "Zacksitt\\XmlHelper\\": "src/"
+            "Zacksitt\\XmlHelper\\": "packages/zacksitt/xml-helper/src"
         }
     },
     "authors": [
