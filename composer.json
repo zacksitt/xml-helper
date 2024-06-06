@@ -1,0 +1,20 @@
+{
+    "name": "zacksitt/xml-helper",
+    "description": "???The Laravel XML Helper package simplifies XML data handling within Laravel applications. Easily parse, generate, and transform XML with intuitive methods that integrate seamlessly with Laravel's ecosystem.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Simplexi\\XmlHelper\\": "packages/zacksitt/xml-helper/src",
+            "Zacksitt\\XmlHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Myo Thu",
+            "email": "myoothu.jva@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
