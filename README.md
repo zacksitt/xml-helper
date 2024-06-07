@@ -7,7 +7,7 @@ The Laravel XML Helper package provides an easy and efficient way to work with X
 To install the package, you can use Composer:
 
 ```bash
-composer require zacksitt/xml-helper dev-main
+composer require zacksitt/xml-helper
 
 Usage
 Converting Arrays to XML
