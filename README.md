@@ -37,16 +37,16 @@ $array = xmlHelper->toArray($xmlString);
 
 print_r($array);
 
-Extracting Values with XPath
-Use the getValue() method to extract values from an XML string using an XPath query.
+Extracting Values with element.
+Use the getValue() method to extract values from an XML string using an element name.
 
 $xmlString = '<root><element>value</element><anotherElement>anotherValue</anotherElement></root>';
-$xpath = '//element';
+$xpath = 'anotherElement';
 
 $xmlHelper = new XmlHelper();
 $value = $xmlHelper->getValue($xmlString, $xpath);
 
-echo $value; // Output: value
+echo $value; // Output: anotherValue
 
 Methods
 toXML(array $data): string
@@ -55,7 +55,7 @@ Converts a PHP array to an XML string.
 toArray(string $xml): array
 Parses an XML string into a PHP array.
 
-getValue(string $xml, string $xpath): mixed
+getValue(string $xml, string $element): mixed
 Extracts a value from an XML string using an XPath query.
 
 License
